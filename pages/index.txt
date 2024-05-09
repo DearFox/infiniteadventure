@@ -1,0 +1,3 @@
+[title]Главная
+Страницы:
+<a href="1.html">1</a> <a href="2.html">2</a>

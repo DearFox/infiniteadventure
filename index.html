@@ -3,14 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
-	<link rel="manifest" href="/img/site.webmanifest">
-	<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href="/img/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<link rel="manifest" href="img/site.webmanifest">
+	<link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="img/favicon.ico">
 	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="msapplication-config" content="/img/browserconfig.xml">
+	<meta name="msapplication-config" content="img/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
 	<meta property="og:title" content="Infinite Adventure">
 	<meta property="og:site_name" content="Бесконечные приключения">
@@ -19,7 +19,7 @@
 	<meta property="og:image" content="https://infiniteadventure.paw.su/logo-1.png">
 	<meta property="og:image:width" content="640"/>
 	<meta property="og:image:height" content="100"/>
-	<title>Infinite Adventure</title>
+	<title>Infinite Adventure - Главная</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
@@ -152,6 +152,9 @@
 		<table class="table_style content_stule">
 			<tr>
 				<td class="border" style="background-color: #847158; 	padding-left: 25px; padding-right: 25px; min-width: 	300px;">
+					<h3>Главная</h3>
+<p>Страницы:</p>
+<p><a href="1.html">1</a> <a href="2.html">2</a></p>
 				</td>
 				<td class="border" style="background-color: #6a574c; 	width: 300px; max-width: 300px; min-width: 300px; 	text-align: center; vertical-align: top;">
 					<div>
@@ -163,12 +166,12 @@
 							</tr>
 							<tr>
 								<td>
-									<p>Вы на <?php echo $page . ' из ' . $maxPagesNumber; ?> </p>
+									<p><a href="1.html">Начало</a></p>
 								</td>
 							</tr>
 							<tr>
 								<td>
-
+									<p><a href="2.html">Последняя</a></p>
 								</td>
 							</tr>
 							<tr>
@@ -184,8 +187,29 @@
 				</td>
 			</tr>
 		</table>
+		<div class="comments border">
+			<div id="disqus_thread"></div>
+		</div>
+			<script>
+  	  	/**
+  	  	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  	  	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+  	  	/*
+  	  	this.page.url = PAGE_URL;  // Replace PAGE_URL with your page s canonical URL variable*/
+  	  	var disqus_config = function () {
+  	  	
+  	  	this.page.url = "https://infiniteadventure.paw.su/?page=index";
+  	  	this.page.identifier = index; // Replace PAGE_IDENTIFIER with your page s unique identifier variable
+  	  	};
+(function() { // DON'T EDIT BELOW THIS LINE
+  			  var d = document, s = d.createElement('script');
+  			  s.src = 'https://infiniteadventure.disqus.com/embed.js';
+  			  s.setAttribute('data-timestamp', +new Date());
+  			  (d.head || d.body).appendChild(s);
+  	  	})();
+			</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>		
 
-		
 		<div class="bottom">
 			<center>
 				<i>
